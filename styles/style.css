@@ -51,7 +51,6 @@
 
 .disabled-button {
   cursor: not-allowed;
-  pointer-events: none;
 }
 
 .links {
@@ -60,11 +59,13 @@
 }
 
 .container-tiny {
-  width: 577px;
-  margin: 0;
-  justify-content: left;
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: center;
   display: flex;
-  align-items: center;
+
+  flex-direction: column;
 }
 
 .header-main {
@@ -217,7 +218,7 @@ footer .container {
 }
 
 .offer-button {
-  display: inline-block;
+  width: 164px;
   color: #fff;
   font-size: 20px;
   font-weight: 600;
